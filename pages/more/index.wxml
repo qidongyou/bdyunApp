@@ -1,0 +1,91 @@
+<view class="container">
+	<view class="head">
+		
+		<view class="avatar">
+			<image 
+				src="https://resource.36dong.com/theme/20150702/22f470b231e636b109ac5f80b0c5291e.jpg">
+			</image>
+		</view>
+
+		<view class="detail">
+			<view class="inline-block mr5">Tom</view>
+			<view class="inline-block mr5">VIP</view>
+			<view class="inline-block">开能会员</view>
+			<view>
+				<progress percent="20" show-info />
+			</view>
+			<view class="small">
+				容量(123G/1321G 12.1%)
+			</view>
+		</view>
+	</view>
+	
+	<!-- 九宫格样式 -->
+	<view class="grids">
+
+		<view class="grid-item"  wx:for="{{grids}}" wx:key="*this">
+			
+			<!-- 外层要套链接 -->
+			<view class="grid-image">
+				<image src="https://resource.36dong.com/theme/20150702/22f470b231e636b109ac5f80b0c5291e.jpg">
+				</image>
+			</view>
+
+			<view class="grid-title">{{item.title}}</view>
+			<!-- 外层要套链接 -->
+		</view>
+
+	</view>
+
+	<view class="banner">
+		<image 
+			src="https://resource.36dong.com/theme/20150702/22f470b231e636b109ac5f80b0c5291e.jpg">
+		</image>
+	</view>
+	
+	<view class="cells">
+		<view class="cell">
+			<view class="fl">
+				设置
+			</view>
+
+			<view class="fr">
+				>
+			</view>
+			<view class="clear">
+			</view>
+		</view>
+		
+		<view class="cell">
+			<view class="fl">
+				用户反馈
+			</view>
+			<view class="fr">
+				>
+			</view>
+			<view class="clear">
+			</view>
+		</view>
+
+		<view class="cell">
+			<view class="fl">
+				关于
+			</view>
+			<view class="fr">
+				>
+			</view>
+			<view class="clear">
+			</view>
+		</view>	
+	</view>
+
+	<view class="logout">
+			退出当前帐号
+		</view>
+
+	<view class="mt1">
+		
+	</view>
+	
+
+</view>

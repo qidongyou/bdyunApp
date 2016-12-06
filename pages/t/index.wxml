@@ -1,0 +1,116 @@
+<view class="container">
+
+    <view class="tabs">
+        <view class="inline tab-head" bindtap="tabFun">
+
+            <view class="{{tabArr.curHdIndex=='0'? 'active' : ''}} down" data-id="0">
+                下载列表
+            </view>
+
+            <view class="{{tabArr.curHdIndex=='1'? 'down active' : ''}} upload" data-id="1">
+                上传列表
+            </view>
+
+            <view class="{{tabArr.curHdIndex=='2'? 'down active' : ''}} save" data-id="2">
+                保存到相册
+            </view>
+
+        </view>
+
+        <view class="tab-content">
+
+            <view class="tab-item {{tabArr.curBdIndex=='0'? 'active' : ''}}">
+
+                <view class="section mt-line">
+                <view class="section__title">下载成功(3)</view>
+                <view class="image-list">
+
+                    <view class="mb-line" wx:for="{{downArr}}" wx:for-index="idx" 
+                        wx:for-item="item" data-idx="{{idx}}">
+
+                        <view class="inline-block w3">
+                            <image class="item-more" src="/images/index_focus.png"></image>
+                        </view>
+                        
+                        <view class="inline-block w14">
+                            <view>{{item.name}}</view>
+                            <view >
+                                <text class="inline-block w10">{{item.updateAt}}</text>
+                                <text class="inline-block w4">{{item.size}}k</text>
+                            </view>
+
+                        </view>
+
+                        <view class="inline-block w3 more">
+                            更多
+                        </view>
+
+                        <view class="{{item.isDetail==true?'isDetail':''}} item-sel">
+
+                            <view class="inline-block w10">
+                                <text class="fr">传输</text>
+                            </view>
+
+                            <view class="inline-block w10">
+                                <text class="fl">删除</text>
+                            </view>
+                
+                        </view>
+
+                    </view>
+
+                    <view class="mb-line">
+
+                        <view class="inline-block w3">
+                            <image class="item-more" src="/images/index_focus.png"></image>
+                        </view>
+                        
+                        <view class="inline-block w14">
+                            <view>adasdadasda</view>
+                            <view >
+                                <text class="inline-block w10">2016-11-11 : 11:11 </text>
+                                <text class="inline-block w4">222k</text>
+                            </view>
+
+                        </view>
+
+                        <view class="inline-block w3 more">
+                            更多
+                        </view>
+
+                        <view class="item-sel">
+                            
+                            <view class="inline-block w10">
+                                <text class="fr">传输</text>
+                            </view>
+
+                            <view class="inline-block w10">
+                                <text class="fl">删除</text>
+                            </view>
+                    
+
+
+                        </view>
+
+
+                    </view>
+
+                </view>
+                </view>
+
+            </view>
+            
+            <view class="tab-item {{tabArr.curBdIndex=='1'? 'active' : ''}}">
+                上传列表内容
+            </view>  
+
+            <view class="tab-item {{tabArr.curBdIndex=='2'? 'active' : ''}}">
+                 保存到相册内容
+            </view>  
+
+        </view>
+    </view>
+
+    
+
+</view>  

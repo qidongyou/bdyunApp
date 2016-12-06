@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/share/index",
+    "pages/t/index",
+    "pages/kan/index",
+    "pages/more/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#3b8cff",
+    "navigationBarTitleText": "百度网盘",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "color": "#626567",
+    "selectedColor": "#2A8CE5",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "#2A8CE5",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "网盘",
+      "iconPath": "images/index.png",
+      "selectedIconPath": "images/index_focus.png"
+    }, {
+      "pagePath": "pages/share/index",
+      "text": "分享",
+      "iconPath": "images/discovery.png",
+      "selectedIconPath": "images/discovery_focus.png"
+    }, {
+      "pagePath": "pages/t/index",
+      "text": "传输列表",
+      "iconPath": "images/ring.png",
+      "selectedIconPath": "images/ring_focus.png"
+    }, {
+      "pagePath": "pages/kan/index",
+      "text": "看吧",
+      "iconPath": "images/chat.png",
+      "selectedIconPath": "images/chat_focus.png"
+    }, {
+      "pagePath": "pages/more/index",
+      "text": "更多",
+      "iconPath": "images/burger.png",
+      "selectedIconPath": "images/burger_focus.png"
+    }]
+  }
+}

@@ -1,0 +1,28 @@
+.container{
+	padding: 0;
+}
+
+.section_gap{
+	background-color: #3b8cff;
+	color: #fff;
+}
+
+.scroll-view{
+	white-space: nowrap; display: flex;
+	height: 2rem;
+}
+
+.scroll-view-item{
+	width: 3rem; 
+	display: inline-block;
+	color: #eee;
+}
+
+.active{
+	color: #fff;
+	font-weight: 700;
+}
+.w10 image{
+	width: 10rem;
+	height: 5rem;
+}

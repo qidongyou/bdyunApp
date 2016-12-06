@@ -1,0 +1,95 @@
+/**index.wxss**/
+.inline{
+	padding: 0.5rem 0;
+}
+
+input{
+	height: 1.6rem;
+}
+
+.inline .add {
+	width: 3rem;
+	display: inline-block;
+}
+
+.inline .add,.inline .sort{
+	margin-top: 0;
+}
+
+.inline .sort{
+	width: 3rem;
+	display: inline-block;
+}
+
+.inline .form{
+	width: 13.4rem;
+	display: inline-block;
+}
+
+.inline .face{
+	width: 3rem;
+	display: none;
+}
+
+.inline .section{
+	width: 14rem;
+	display: inline;
+}
+
+.inline input{
+
+	border: 0.1rem solid #ddd;
+	padding: 0;
+	margin: 0;
+}
+
+.list{
+	margin: 2rem 0;
+}
+
+.userinfo{
+	margin-top: 1rem;
+}
+
+.feed-item{
+	border-top: 1px solid #000;
+	padding: 0.5rem 0;
+
+}
+
+.feed-item-last{
+	border-bottom: 1px solid #000;
+}
+
+
+.feed-source .avatar{
+	display: inline-block;
+	width: 3rem;
+}
+
+.feed-source .time{
+	font-size: 13px;
+}
+
+.feed-source .detail{
+	display: inline-block;
+	width: 14rem;
+}
+
+.feed-source{
+	position: relative;
+}
+
+.feed-source .link{
+	position: absolute;
+	top: 15px;
+	right: 0;
+}
+
+.feed-source .name{
+	padding: 0;
+}
+
+
+
+

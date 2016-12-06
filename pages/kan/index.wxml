@@ -1,0 +1,36 @@
+<view class="container">
+	<view class="section_gap" id="head">
+	  	<scroll-view class="scroll-view" scroll-x="true">
+		    <view 
+    			wx:for="{{themes}}"
+    			wx:for-index="idx"
+    			id="{{item.type}}"
+                wx:for-item="item" 
+                bindtap="tapName"
+                class="scroll-view-item {{item.type == toView ? 'active': ''}}"
+                data-idx="{{idx}}"data-type="{{item.type}}">
+		    	{{item.name}}
+		    </view>
+		</scroll-view>
+	</view>
+
+	<view wx:for="{{themes}}"
+    	wx:for-index="idx" wx:if="{{item.type == toView}}">
+		<view >{{item.name}} 如下：</view>
+
+		<view class="inline-block w10">
+			<view>
+				sadadasdasdada
+			</view>
+
+			<view>
+				中国网  刚刚
+			</view>
+		</view>
+		<view class="inline-block w10">
+			<image src="/images/index_focus.png"></image>
+		</view>
+	</view>
+	
+
+</view>

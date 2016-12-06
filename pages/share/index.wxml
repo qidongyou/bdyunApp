@@ -1,0 +1,50 @@
+<view class="container">
+    <block>
+
+        <view class="feed-item" style="border-top: none;">
+            <view class="feed-source" >
+                <view class="avatar">
+                    <image class="item-more" src="/images/index_focus.png"></image>
+                </view>
+
+                <view class="detail">
+                    <view class="name title">
+                        好友推荐
+                    </view>
+
+                    <view class="time desc">
+                        添加好友，分享文件更方便。
+                    </view>
+                </view>
+
+                <view class="pos">
+                    11-09 09:29
+                </view>
+
+            </view>
+        </view>
+
+        <view class="feed-item feed-item-last">
+            <view class="feed-source">
+                <view class="avatar">
+                    <image class="item-more" src="/images/index_focus.png"></image>
+                </view>
+
+                <view class="detail">
+                    <view class="name title">
+                        给朋友分享文件
+                    </view>
+
+                    <view class="time desc">
+                        立即查看全新的百度网盘
+                    </view>
+                    <view class="pos">
+                        11-10 11:46
+                    </view>
+                </view>
+            </view>
+        </view>
+    </block>
+
+</view>
+

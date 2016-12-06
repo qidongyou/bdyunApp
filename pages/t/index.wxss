@@ -1,0 +1,71 @@
+
+.tab-head .active{
+	border-bottom: 1px solid blue;
+}
+
+.tab-content .tab-item{
+	display: none;
+}
+
+.tab-content .active{
+	display: block;
+}
+
+
+
+.down,.upload,.save{
+	padding: 1rem 0;
+}
+
+.down,.upload{
+	display: inline-block;
+	width: 6rem;
+}
+
+.save{
+	display: inline-block;
+	width: 7.4rem;
+}
+
+
+.image-list image{
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+}
+
+.mb-line{
+	border-bottom: 1px solid #eee;
+	padding: 0.5rem 0 0 0;
+	position: relative;
+}
+
+.image-list .more{
+	position: absolute;
+	top: 15px;
+	right: 0;
+}
+
+.image-list .item-sel{
+	display: none;
+}
+
+.item-sel{
+	background-color: #eee;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.item-sel .w10{
+	width: 9.7rem;
+}
+
+.item-sel .fr{
+	margin-right: 1rem;
+}
+
+.item-sel .fl{
+	margin-left: 1rem;
+}
+
+

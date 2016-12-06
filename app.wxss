@@ -1,0 +1,90 @@
+/**app.wxss**/
+.container {
+
+	
+	font-family: -apple-system-font, "Helvetica Neue", sans-serif;
+	padding: 0.3rem;
+	
+ /*
+ height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rpx 0;
+  box-sizing: border-box;
+  */
+
+} 
+
+.feed-item{
+	border-top: 1px solid #000;
+}
+
+.feed-item-last{
+	border-bottom: 1px solid #000;
+}
+
+.feed-source image{
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+}
+
+.feed-source .avatar{
+	display: inline-block;
+	width: 3rem;
+}
+
+
+.feed-source .time{
+	font-size: 12px;
+}
+
+.feed-source .detail{
+	display: inline-block;
+	width: 14rem;
+}
+
+.feed-source .link{
+	display: inline-block;
+	width: 3rem;
+}
+
+.inline-block{
+	display: inline-block;
+}
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+.w1{
+	width: 1rem;
+}
+
+.w2{
+	width: 2rem;
+}
+
+.w3{
+	width: 3rem;
+}
+
+.w4{
+	width: 4rem;
+}
+
+.w10{
+	width: 10rem;
+}
+.w14{
+	width: 14rem;
+}

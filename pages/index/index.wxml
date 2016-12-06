@@ -1,0 +1,197 @@
+<!--index.wxml-->
+
+<view class="container">
+	
+	<scroll-view scroll-y="true" style="position: relative;"
+	bindscrolltoupper="upper" upper-threshold="10" 
+	lower-threshold="5" bindscrolltolower="lower"  
+	scroll-into-view="{{toView}}" 
+	scroll-top="{{scrollTop}}">
+
+		<view class="inline">
+			<view class="add">
+	        	添加
+	      	</view>
+
+	      	<view class="sort">
+	        	排序
+	      	</view>
+	      	
+	      	<view class="form">
+	      		<input placeholder="搜索"/>
+	      	</view>
+
+	      	<view class="face">
+	        	人脸
+	      	</view>
+
+		</view>
+
+		<block>
+		    <view class="feed-item">
+		        <view class="feed-source">
+	                <view class="avatar">
+	                    <image class="item-more" src="/images/index_focus.png"></image>
+	                </view>
+
+	                <view class="detail">
+	                	
+	                	<view class="name">
+	                		隐藏空间
+	                	</view>
+
+	                </view>
+		        </view>
+		    </view>
+
+		    <view class="feed-item">
+		        <view class="feed-source">
+	                <view class="avatar">
+	                    <image class="item-more" src="/images/index_focus.png"></image>
+	                </view>
+
+	                <view class="detail">
+	                	<view class="name">
+	                		我的应用数据
+	                	</view>
+
+	                	<view class="time">
+	                		2012-09-21 11:03
+	                	</view>
+	                </view>
+	            	<view  class="link">
+	            		查看
+	            	</view>
+		        </view>
+		    </view>
+
+		    <view class="feed-item">
+		        <view class="feed-source">
+	                <view class="avatar">
+	                    <image class="item-more" src="/images/index_focus.png"></image>
+	                </view>
+
+	                <view class="detail">
+	                	<view class="name">
+	                		来自：iPhone
+	                	</view>
+
+	                	<view class="time">
+	                		2012-09-21 11:03
+	                	</view>
+	                </view>
+	            	<view  class="link">
+	            		查看
+	            	</view>
+		        </view>
+		    </view>
+
+		    <view class="feed-item">
+		        <view class="feed-source">
+	                <view class="avatar">
+	                    <image class="item-more" src="/images/index_focus.png"></image>
+	                </view>
+
+	                <view class="detail">
+	                	<view class="name">
+	                		js
+	                	</view>
+
+	                	<view class="time">
+	                		2012-09-21 11:03
+	                	</view>
+	                </view>
+	            	<view  class="link">
+	            		查看
+	            	</view>
+		        </view>
+		    </view>
+
+		    <view class="feed-item">
+		        <view class="feed-source">
+	                <view class="avatar">
+	                    <image class="item-more" src="/images/index_focus.png"></image>
+	                </view>
+
+	                <view class="detail">
+	                	<view class="name">
+	                		来自：百度相册
+	                	</view>
+
+	                	<view class="time">
+	                		2012-09-21 11:03
+	                	</view>
+	                </view>
+	            	<view  class="link">
+	            		查看
+	            	</view>
+		        </view>
+		    </view>
+
+
+		    <view class="feed-item">
+		        <view class="feed-source">
+	                <view class="avatar">
+	                    <image class="item-more" src="/images/index_focus.png"></image>
+	                </view>
+
+	                <view class="detail">
+	                	<view class="name">
+	                		我的资源
+	                	</view>
+
+	                	<view class="time">
+	                		2012-09-21 11:03
+	                	</view>
+	                </view>
+	            	<view  class="link">
+	            		查看
+	            	</view>
+		        </view>
+		    </view>
+
+
+		    <view class="feed-item">
+		        <view class="feed-source">
+	                <view class="avatar">
+	                    <image class="item-more" src="/images/index_focus.png"></image>
+	                </view>
+
+	                <view class="detail">
+	                	<view class="name">
+	                		软件
+	                	</view>
+
+	                	<view class="time">
+	                		2012-09-21 11:03
+	                	</view>
+	                </view>
+	            	<view  class="link">
+	            		查看
+	            	</view>
+		        </view>
+		    </view>
+
+		    <view class="feed-item feed-item-last">
+		        <view class="feed-source">
+	                <view class="avatar">
+	                    <image class="item-more" src="/images/index_focus.png"></image>
+	                </view>
+
+	                <view class="detail">
+	                	<view class="name">
+	                		我的照片
+	                	</view>
+
+	                	<view class="time">
+	                		2012-09-21 11:03
+	                	</view>
+	                </view>
+	            	<view  class="link">
+	            		查看
+	            	</view>
+		        </view>
+		    </view>
+		</block>
+	</scroll-view>
+</view>

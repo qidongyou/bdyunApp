@@ -1,5 +1,5 @@
 # wxApp-baiduyun
-## tabs
+## tabsadada
 
 看了网上的一篇文章写了一个tabs,详细看代码。
 
